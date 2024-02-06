@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { Logo } from "../Logo/Logo";
 import MyAlert from "../myAlert";
-// import { myAlert } from "/src/components/myAlert";
 
 export const Footer = () => {
   const [email, setEmail] = useState("");
